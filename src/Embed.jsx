@@ -96,14 +96,6 @@ export default function Embed() {
                       HTML
                       <br />
                       SQL
-                      <br />
-                      WebGL
-                      <br />
-                      Three.js
-                      <br />
-                      React
-                      <br />
-                      React Three Fiber
                     </p>
                   </div>
 
@@ -124,6 +116,14 @@ export default function Embed() {
                       Bootstrap
                       <br />
                       VirtualBox
+                      <br />
+                      WebGL
+                      <br />
+                      Three.js
+                      <br />
+                      React
+                      <br />
+                      React Three Fiber
                     </p>
                   </div>
 
@@ -243,7 +243,7 @@ export default function Embed() {
                     <p className='text-center italic font-roboto'>10/2024 - Ongoing</p>
 
                     <h5 className="font-semibold mb-2 text-center mt-10 leading-tight">Fullstack Open</h5>
-                    <p className='text-center italic font-roboto pb-3'>11/2024 - Ongoing - 2020</p>
+                    <p className='text-center italic font-roboto pb-3'>11/2024 - Ongoing</p>
                   </div>
                 </div>
 
