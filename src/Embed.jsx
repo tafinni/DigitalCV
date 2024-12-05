@@ -321,10 +321,13 @@ export default function Embed() {
                     </a>
                     <p className='text-center italic font-roboto mt-7'>JavaScript, HTML, CSS, React, Tailwind, Three.js, React Three Fiber, Vercel, Blender</p>
                     <p className='text-center font-semibold font-roboto m-3'>Site for my CV.</p>
-                    <p className="m-3 mt-0">
+                    <p className="text-center italic font-roboto mt-7">
                       Built the site with React to manage components efficiently and used React Three Fiber, 
                       which is a React renderer for Three.js (built on top of WebGL), 
                       to integrate 3D elements modeled with Blender.
+                      <br />
+                      <br />
+                      Better support for mobile in development.
                     </p>
                   </div>
 
@@ -413,7 +416,7 @@ export default function Embed() {
                         </h4>
                       </div>
                     </a>
-                    <p className='text-center italic font-roboto mt-7'>C, memory management, pointers, structs, raycasting, parsing, graphics</p>
+                    <p className='text-center italic font-roboto mt-7'>C, Memory management, Pointers, Structs, Raycasting, Parsing, Graphics</p>
                     <p className='text-center font-semibold font-roboto m-3'>A game imitating old-style Wolfenstein.</p>
                     <p className="m-3 mt-0">
                       Essentially a mini-game engine that handles 3D rendering, player movement and updates real-time minimap.
