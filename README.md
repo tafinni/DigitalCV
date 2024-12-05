@@ -13,3 +13,7 @@ This is my digital CV built to showcase my skills and projects. It's a single-pa
 
 **Live Demo**
 Check out the live version here: tafinni-cv.vercel.app
+
+---
+
+*Better support for mobile in development.*
