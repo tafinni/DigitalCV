@@ -4,6 +4,7 @@ import { Canvas } from '@react-three/fiber'
 import Experience from './Experience.jsx'
 import { Loader } from '@react-three/drei'
 import { Suspense } from 'react'
+import { Analytics } from '@vercel/analytics/react'
 
 const root = ReactDOM.createRoot(document.querySelector('#root'))
 
@@ -17,13 +18,14 @@ function App(){
                     fov: 45,
                     near: 0.1,
                     far: 2000,
-                    position: [ 0, 0, 6 ],
+                    position: [ 0, 0, 5 ],
                 }}
             >
                 <Experience/>
             </Canvas>
         </Suspense>
         <Loader />
+        <Analytics />
     </>
     )
 }
