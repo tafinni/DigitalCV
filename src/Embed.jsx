@@ -74,7 +74,7 @@ export default function Embed() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-2xl text-left">
 
                 {/* Left Column*/}
-                <div className="flex flex-col space-y-8 h-full pb-6">
+                <div className="flex flex-col space-y-8 h-full pb-6 pr-6">
                   
                   <div className="flex-1 outline outline-solid outline-titleBlue p-6 mt-6 text-titleBlue"
                   style={{ outlineWidth: '8px' }}>
@@ -215,7 +215,7 @@ export default function Embed() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-2xl text-left">
 
                 {/* Left Column*/}
-                <div className="flex flex-col space-y-8 h-full pb-6">
+                <div className="flex flex-col space-y-8 h-full pb-6 mr-6">
 
                   {/* Education */}
                   <div className="flex-1 outline outline-solid outline-titleBlue p-6 mt-6 text-titleBlue"
@@ -305,7 +305,7 @@ export default function Embed() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-2xl text-left">
 
                 {/* Left Column*/}
-                <div className="flex flex-col space-y-8 h-full pb-6">
+                <div className="flex flex-col space-y-8 h-full pb-6 mr-6">
 
                   {/* This portfolio */}
                   <div className="flex-1 outline outline-border outline-titleBlue p-6 mt-6 text-titleBlue text-center"
@@ -321,7 +321,7 @@ export default function Embed() {
                     </a>
                     <p className='text-center italic font-roboto mt-7'>JavaScript, HTML, CSS, React, Tailwind, Three.js, React Three Fiber, Vercel, Blender</p>
                     <p className='text-center font-semibold font-roboto m-3'>Site for my CV.</p>
-                    <p className="text-center italic font-roboto mt-7">
+                    <p className="m-3 mt-0">
                       Built the site with React to manage components efficiently and used React Three Fiber, 
                       which is a React renderer for Three.js (built on top of WebGL), 
                       to integrate 3D elements modeled with Blender.
