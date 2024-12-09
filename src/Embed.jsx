@@ -34,7 +34,7 @@ export default function Embed() {
               {/* Profile picture */}
               <div className="outline outline-solid outline-titleBlue mx-auto bg-titleBlue from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96"
               style={{ outlineWidth: '8px' }}>
-                <img src={pf} alt="Profile" className="object-cover w-full h-full scale-125" />
+                <img src={pf} alt="Profile" className="object-cover w-full h-full" />
               </div>
 
               {/* Introduction */}
