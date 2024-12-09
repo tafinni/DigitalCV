@@ -18,7 +18,7 @@ function App(){
                     fov: 45,
                     near: 0.1,
                     far: 2000,
-                    position: [ 0, 0, 5 ],
+                    position: [ 0, 0.2, 5 ],
                 }}
             >
                 <Experience/>
