@@ -76,8 +76,7 @@ export default function Embed() {
                 {/* Left Column*/}
                 <div className="flex flex-col space-y-8 h-full pb-6 pr-6">
                   
-                  <div className="flex-1 outline outline-solid outline-titleBlue p-6 mt-6 text-titleBlue"
-                  style={{ outlineWidth: '8px' }}>
+                  <div className="standardBox">
                     <h4 className="font-semibold mb-2 text-center">Programming</h4>
                     <hr className="border-t-8 border-solid border-titleBlue my-4" />
                     <p className="columns-2 gap-4">
@@ -100,8 +99,7 @@ export default function Embed() {
                   </div>
 
                   {/* Technologies */}
-                  <div className="flex-1 outline outline-solid outline-titleBlue p-6 mt-6 text-titleBlue"
-                    style={{ outlineWidth: '8px' }}>
+                  <div className="standardBox">
                     <h4 className="font-semibold mb-2 text-center">Technologies</h4>
                     <hr className="border-t-8 border-solid border-titleBlue my-4" />
                     <p className="columns-2 gap-4">
@@ -128,8 +126,7 @@ export default function Embed() {
                   </div>
 
                   {/* Soft Skills */}
-                  <div className="flex-1 outline outline-solid outline-titleBlue p-6 mt-6 text-titleBlue"
-                    style={{ outlineWidth: '8px' }}>
+                  <div className="standardBox">
                     <h4 className="font-semibold mb-2 text-center">Soft Skills</h4>
                     <hr className="border-t-8 border-solid border-titleBlue my-4" />
                     <p className="columns-2 gap-4">
@@ -148,8 +145,7 @@ export default function Embed() {
                   </div>
 
                   {/* Concepts */}
-                  <div className="flex-1 outline outline-solid outline-titleBlue p-6 mt-6 text-titleBlue"
-                    style={{ outlineWidth: '8px' }}>
+                  <div className="standardBox">
                     <h4 className="font-semibold mb-2 text-center">Concepts</h4>
                     <hr className="border-t-8 border-solid border-titleBlue my-4" />
                     <p className="columns-2 gap-4">
@@ -162,8 +158,7 @@ export default function Embed() {
                   </div>
 
                   {/* Operating Systems */}
-                  <div className="flex-1 outline outline-solid outline-titleBlue p-6 mt-6 text-titleBlue"
-                  style={{ outlineWidth: '8px' }}>
+                  <div className="standardBox">
                     <h4 className="font-semibold mb-2 text-center">Operating Systems</h4>
                     <hr className="border-t-8 border-solid border-titleBlue my-4" />
                     <p className="columns-2 gap-4">
@@ -176,8 +171,7 @@ export default function Embed() {
                   </div>
 
                   {/* Languages */}
-                  <div className="flex-1 outline outline-solid outline-titleBlue p-6 mt-6 text-titleBlue"
-                    style={{ outlineWidth: '8px' }}>
+                  <div className="standardBox">
                     <h4 className="font-semibold mb-2 text-center">Languages</h4>
                     <hr className="border-t-8 border-solid border-titleBlue my-4" />
                     <p className="columns-2 gap-4">
@@ -218,8 +212,7 @@ export default function Embed() {
                 <div className="flex flex-col space-y-8 h-full pb-6 mr-6">
 
                   {/* Education */}
-                  <div className="flex-1 outline outline-solid outline-titleBlue p-6 mt-6 text-titleBlue"
-                  style={{ outlineWidth: '8px' }}>
+                  <div className="standardBox">
                     <h4 className="font-semibold mb-2 text-center">Education</h4>
                     <hr className="border-t-8 border-solid border-titleBlue my-4" />
 
@@ -234,8 +227,7 @@ export default function Embed() {
                   </div>
 
                   {/* Courses */}
-                  <div className="flex-1 outline outline-solid outline-titleBlue p-6 mt-6 text-titleBlue"
-                    style={{ outlineWidth: '8px' }}>
+                  <div className="standardBox">
                     <h4 className="font-semibold mb-2 text-center">Courses</h4>
                     <hr className="border-t-8 border-solid border-titleBlue my-4" />
 
@@ -251,8 +243,7 @@ export default function Embed() {
                 <div className="flex flex-col space-y-8 h-full pb-6 pr-6">
 
                   {/* Work */}
-                  <div className="flex-1 outline outline-solid outline-titleBlue p-6 mt-6 text-titleBlue"
-                  style={{ outlineWidth: '8px' }}>
+                  <div className="standardBox">
                     <h4 className="font-semibold mb-2 text-center">Work</h4>
                     <hr className="border-t-8 border-solid border-titleBlue my-4" />
 
@@ -308,8 +299,7 @@ export default function Embed() {
                 <div className="flex flex-col space-y-8 h-full pb-6 mr-6">
 
                   {/* This portfolio */}
-                  <div className="flex-1 outline outline-border outline-titleBlue p-6 mt-6 text-titleBlue text-center"
-                  style={{ outlineWidth: '8px' }}>
+                  <div className="standardBox text-center">
                     <a href="https://github.com/tafinni/DigitalCV " target="_blank" rel="noopener noreferrer">
                       <div className="outline outline-border outline-titleBlue inline-block bg-white p-5 pt-3 pb-2"
                       style={{ outlineWidth: '8px' }}>
@@ -332,8 +322,7 @@ export default function Embed() {
                   </div>
 
                   {/* Minishell */}
-                  <div className="flex-1 outline outline-border outline-titleBlue p-6 mt-6 text-titleBlue text-center"
-                  style={{ outlineWidth: '8px' }}>
+                  <div className="standardBox text-center">
                     <a href="https://github.com/tafinni/minishell" target="_blank" rel="noopener noreferrer">
                       <div className="outline outline-border outline-titleBlue inline-block bg-white p-5 pt-3 pb-2"
                       style={{ outlineWidth: '8px' }}>
@@ -356,8 +345,7 @@ export default function Embed() {
                   </div>
 
                   {/* ft_irc */}
-                  <div className="flex-1 outline outline-border outline-titleBlue p-6 mt-6 text-titleBlue text-center"
-                  style={{ outlineWidth: '8px' }}>
+                  <div className="standardBox text-center">
                     <a href="https://github.com/tafinni/ft_irc" target="_blank" rel="noopener noreferrer">
                       <div className="outline outline-border outline-titleBlue inline-block bg-white p-5 pt-3 pb-2"
                       style={{ outlineWidth: '8px' }}>
@@ -385,8 +373,7 @@ export default function Embed() {
                 <div className="flex flex-col space-y-8 h-full pb-6 mr-6">
 
                   {/* ft_transcendence */}
-                  <div className="flex-1 outline outline-border outline-titleBlue p-6 mt-6 text-titleBlue text-center"
-                  style={{ outlineWidth: '8px' }}>
+                  <div className="standardBox text-center">
                     <a href="https://github.com/tafinni/ft_transcendence" target="_blank" rel="noopener noreferrer">
                       <div className="outline outline-border outline-titleBlue inline-block bg-white p-5 pt-3 pb-2"
                       style={{ outlineWidth: '8px' }}>
@@ -405,8 +392,7 @@ export default function Embed() {
                   </div>
 
                   {/* Cub3D */}
-                  <div className="flex-1 outline outline-border outline-titleBlue p-6 mt-6 text-titleBlue text-center"
-                  style={{ outlineWidth: '8px' }}>
+                  <div className="standardBox text-center">
                     <a href="https://github.com/tafinni/cub3D" target="_blank" rel="noopener noreferrer">
                       <div className="outline outline-border outline-titleBlue inline-block bg-white p-5 pt-3 pb-2"
                       style={{ outlineWidth: '8px' }}>
@@ -425,8 +411,7 @@ export default function Embed() {
                   </div>
 
                   {/* Inception */}
-                  <div className="flex-1 outline outline-border outline-titleBlue p-6 mt-6 text-titleBlue text-center"
-                  style={{ outlineWidth: '8px' }}>
+                  <div className="standardBox text-center">
                     <a href="https://github.com/tafinni/Inception" target="_blank" rel="noopener noreferrer">
                       <div className="outline outline-border outline-titleBlue inline-block bg-white p-5 pt-3 pb-2"
                       style={{ outlineWidth: '8px' }}>

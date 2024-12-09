@@ -69,3 +69,14 @@ p
     border-radius: 60px;
     overflow: hidden;
 }
+
+.standardBox
+{
+    outline: solid;
+    outline-color: #1D2442;
+    color: #1D2442;
+    outline-width: 8px;
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+    flex: 1;
+}
