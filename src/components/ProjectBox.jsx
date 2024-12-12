@@ -6,7 +6,7 @@ export default function ProjectBox({ title, link, tech, summary, functionalities
     return (
         <div className="standardBox text-center">
             <a href={link} target="_blank" rel="noopener noreferrer">
-                <div className="outline outline-border outline-titleBlue inline-block bg-white p-5 pt-3 pb-2"
+                <div className="outline outline-border outline-titleBlue inline-block bg-white p-5 pt-3 pb-2 hover:bg-pink0 transition-colors duration-300"
                 style={{ outlineWidth: '8px' }}>
                 <h4 className="font-semibold mb-2 text-center flex items-center justify-center">
                     {title}

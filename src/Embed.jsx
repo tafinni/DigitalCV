@@ -50,13 +50,13 @@ export default function Embed() {
               <div className="outline outline-solid outline-titleBlue bg-white text-center pb-0 px-5 mb-0 mx-auto max-w-lg"
                 style={{ outlineWidth: '8px' }}>
                 <div className="mt-4 text-5xl flex justify-center gap-16 py-5 mb-0 text-titleBlue">
-                  <a href="https://www.github.com/tafinni" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.github.com/tafinni" target="_blank" rel="noopener noreferrer" className="hover:text-pink1 transition-colors duration-300">
                     <FaGithub />
                   </a>
-                  <a href="https://www.linkedin.com/tafinni" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.linkedin.com/tafinni" target="_blank" rel="noopener noreferrer" className="hover:text-pink1 transition-colors duration-300">
                     <FaLinkedin />
                   </a>
-                  <a href="https://www.instagram.com/firuyee" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.instagram.com/firuyee" target="_blank" rel="noopener noreferrer" className="hover:text-pink1 transition-colors duration-300">
                     <FaInstagram />
                   </a>
                 </div>
